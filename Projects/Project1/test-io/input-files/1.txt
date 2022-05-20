@@ -1,0 +1,6 @@
+5
+search 12345678
+search "Adam"
+insert "Adam" 12345678
+search 23456789
+search 12345678

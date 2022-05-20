@@ -1,0 +1,7 @@
+6
+insert "Evan" 44985771
+insert "Earl" 31834874
+insert "Erica" 21456789
+printLevelCount
+insert "Enrique" 17891824
+printLevelCount
