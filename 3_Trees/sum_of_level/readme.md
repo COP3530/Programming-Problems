@@ -3,7 +3,7 @@ Given the root node of an non-empty Binary Search Tree and a certain level, `L`,
 
 ### Constraints
 - Levels >= 0
-- Value(TreeNode) >= 0 and Value(TreeNode) is unique.      
+- Value(TreeNode) is an integer and Value(TreeNode) is unique.      
 
 ### Sample Input
 > `4`  
