@@ -1,75 +1,26 @@
-# Interquartile Range
-
-Quartiles are used in statistics to classify data. Per their name, they divide data into quarters.   
-
-Given a set of data: [1, 2, 3, 4, 5, 6, 7] 
- 
-The lower quartile (Q1) would be the value that separates the lowest quarter of the data from the rest of the data set. So, in this instance, Q1 = 2. The middle quartile (also known as the median or Q2) separates the lowest 2 quarters of the data from the rest of the data set. In this case, Q2 = 4. The upper quartile (Q3) separates the lowest 3 quarters of the data from the rest of the data set. In this case, Q3 = 6. The interquartile range (IQR) is the difference between the third quartile and the first quartile: Q3 - Q1. 
-
-In case the number of values in the list are *odd*, the central element is a unique element. Example, if the list has *size = 9*. The *fifth element* in the list will be the median. In case the number of values in the list are *even*, the central element is a average of two elements. Example, if the list has *size = 10*. The *average of fifth and sixth element* in the list will be the median. Q1 is the median of the beginning and the element preceding median, and Q3 is the median of the element succeeding   median and the end. 
-
-Another example, if the data were [1, 2, 3, 4]
-- Q2 = Average of 2 and 3 = 2.5
-- Q1 = List consisting of elements: 1, 2 (everything before median) = Average of 1 and 2 = 1.5
-- Q3 = List consisting of elements: 3, 4 (everything after median) = Average of 3 and 4 = 3.5
-- IQR = 3.5 - 1.5 = 2.00
-
-&nbsp;
-***
-&nbsp;
-
-
 ## Problem Statement
-Given a sorted singly linked list without a tail (e.g, head -> 1 -> 2 -> 3 -> 4), return the interquartile range of the data set using the slow and fast pointer approach OR using a methodology that does not iterate over the linked list twice. **You must not iterate over the entire linked list more than once and you cannot use arrays, vectors, lists or an STL implementation of List ADT in this problem.** If you prohibit the above requirements, you will incur a 20% penalty on your score.   
-
-The following Node class is already defined for you and we have already implemented the insert() and main() function:
-
-```
-class Node {
-    public:
-        int value;
-        Node* next = nullptr;
-};
-```
-
-### Example 1 Input:
-> `2 4 4 5 6 7 8`
-
-### Example 1 Output:
-> `3.00` 
-
-&nbsp;
-
-### Explanation:
-- Input is a set of numbers inserted into a 
-Linked List separated by spaces.
-- The head of this linked list is passed into the 
- interQuartile() function. 
-- Output is the Interquartile Range of the list, 
-a floating point value. IQR = Q3-Q1 = 7-4 = 3.00. 
-We are rounding returned values to two decimal 
-places in main using setprecision().
-- Note you are expected to return a floating point
- value. Also, there are a a variety of definitions 
- of IQR and we will use the definition listed here: https://www.calculatorsoup.com/calculators/statistics/quartile-calculator.php 
-- You can use the calculator at above link to generate
- sample test cases.
-
- &nbsp;
+Given the root node of an non-empty Binary Search Tree and a certain level, `L`, write a function that returns the sum of all the TreeNode values at level `L`. If there are no nodes at level `L`, return -1. Assume the levels to start at 0, i.e. the root node is located at level 0.
 
 ### Constraints
-- The list is limited to positive numbers.
-- The list will have at least 4 values.
-- The list is sorted.
+- Levels >= 0
+- Value(TreeNode) >= 0 and Value(TreeNode) is unique.      
 
-&nbsp;
+### Sample Input
+> `4`  
+> `2 1 3 4`  
+> `0`
 
-### Difficulty
-Hard (+60 minutes)  
+### Sample Output
+> `2`
 
-&nbsp;
+### Explanation  
+- **Input**: Line 1 denotes the number of elements to be inserted into the tree. Line 2 denotes the elements inserted in that order in a BST. Line 3 denotes the Level, `L`. The tree for sample input is as follows: 
+![alt text. Tree for sample image with values inserted as 2, 1, 3, 4](https://drive.google.com/uc?export=view&id=1Zfq2d9aLwwHCQyT9G1-y7v9ykDjami6w)
 
-**Author:** `Robert Casanova and Amanpreet Kapoor`, 
-**Date Created:** `13 Sep 2020`, 
-**Last Modified:** `22 May 2022`
+- **Output**: The sum of all nodes at the level, `L`. 
 
+### Problem Attributes
+- Author: Amanpreet Kapoor
+- Difficulty: Medium (30-44 minutes)
+- Date Created: 01/31/2022
+- Last Modified: 01/31/2022
