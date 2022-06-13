@@ -4,7 +4,7 @@
 #include "catch.hpp"
 
 /*
-	To check output (At the suffix_count directory):
+	To check output (At the interquartile_range directory):
 		g++ -std=c++14 -Werror -Wuninitialized -o test test-unit/test.cpp && ./test
 */
 
