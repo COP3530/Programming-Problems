@@ -25,3 +25,15 @@ Given the root node of an non-empty Binary Search Tree and a certain level, `L`,
 - Difficulty: Medium (30-44 minutes)
 - Date Created: 01/31/2022
 - Last Modified: 01/31/2022
+
+
+### Submission instructions
+Code your solution in src/sum_of_level.h and upload the sum_of_level.h file on Canvas.
+
+
+### Unit test instructions
+To run unit tests, open terminal and go to the sum_of_level directory. At this directory, run the following command:
+
+g++ -std=c++14 -Werror -Wuninitialized -o test test-unit/test.cpp && ./test
+
+This will show you which tests you pass. We encourage you to build your own tests.
