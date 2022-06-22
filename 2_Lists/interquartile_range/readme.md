@@ -117,6 +117,6 @@ Code your solution in src/interquartile_range.h and upload the interquartile_ran
 ### Unit test instructions
 To run unit tests, open terminal and go to the interquartile_range.h directory. At this directory, run the following command:
 
-g++ -std=c++14 -Werror -Wuninitialized -o test test-unit/test.cpp && ./test
+`g++ -std=c++14 -Werror -Wuninitialized -o test test-unit/test.cpp && ./test`
 
 This will show you which tests you pass. We encourage you to build your own tests.
