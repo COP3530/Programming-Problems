@@ -30,11 +30,11 @@ Write C++ code for a function, *extractMax()* that takes as input a max heap, *a
 
 
 ### Submission instructions
-Code your solution in src/extract_max.h and upload the extract_max.h file on Canvas.
+Code your solution in `src/extract_max.h` and upload the `extract_max.h` file on Canvas.
 
 
 ### Unit test instructions
-To run unit tests, open terminal and go to the extract_max directory. At this directory, run the following command:
+To run unit tests, open terminal and go to the `extract_max` directory. At this directory, run the following command:
 
 `g++ -std=c++14 -Werror -Wuninitialized -o test test-unit/test.cpp && ./test`
 

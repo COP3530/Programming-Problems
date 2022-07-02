@@ -104,10 +104,10 @@ Hard (+60 minutes)
 **Last Modified:** `22 May 2022`
 
 ### Submission instructions
-Code your solution in src/interquartile_range.h and upload the interquartile_range.h file on Canvas.  
+Code your solution in `src/interquartile_range.h` and upload the `interquartile_range.h` file on Canvas.  
 
 ### Unit test instructions
-To run unit tests, open terminal and go to the interquartile_range.h directory. At this directory, run the following command:
+To run unit tests, open terminal and go to the `interquartile_range` directory. At this directory, run the following command:
 
 `g++ -std=c++14 -Werror -Wuninitialized -o test test-unit/test.cpp && ./test`
 
