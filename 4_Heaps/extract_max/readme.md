@@ -8,11 +8,15 @@ Write C++ code for a function, *extractMax()* that takes as input a max heap, *a
 - The array passed into the *extractMax()* satisfies the max heap constraints.
 
 ### Sample Input
-> `3`  
-> `9 8 7`
+```c++
+3 
+9 8 7
+```
 
 ### Sample Output
-> `8 7`
+```c++
+8 7
+```
 
 ### Explanation  
 - **Input**: Line 1 denotes the number of elements, *size* in the heap. Line 2 denotes the contents of the max heap that is passed into *extractMax()* function.

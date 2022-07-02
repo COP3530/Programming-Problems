@@ -8,12 +8,16 @@ Given the root node of an non-empty Binary Search Tree and a certain level, `L`,
 - Value(TreeNode) is an integer and Value(TreeNode) is unique.      
 
 ### Sample Input
-> `4`  
-> `2 1 3 4`  
-> `0`
+```c++
+4  
+2 1 3 4  
+0
+```
 
 ### Sample Output
-> `2`
+```c++
+2
+```
 
 ### Explanation  
 - **Input**: Line 1 denotes the number of elements to be inserted into the tree. Line 2 denotes the elements inserted in that order in a BST. Line 3 denotes the Level, `L`. The tree for sample input is as follows:  
@@ -28,10 +32,8 @@ Given the root node of an non-empty Binary Search Tree and a certain level, `L`,
 - Date Created: 01/31/2022
 - Last Modified: 01/31/2022
 
-
 ### Submission instructions
 Code your solution in src/sum_of_level.h and upload the sum_of_level.h file on Canvas.
-
 
 ### Unit test instructions
 To run unit tests, open terminal and go to the sum_of_level directory. At this directory, run the following command:

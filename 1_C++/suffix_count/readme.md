@@ -9,11 +9,15 @@ In this problem, you will write a function that returns the count of a string’
 - Length (`S`) > 0
 
 ### Sample Input 
-> `et tu, brute`  
-`1`
+```c++  
+et tu, brute  
+1
+```
 
 ### Sample Output
-> `2`
+```c++  
+2 
+```
 
 ### Explanation  
 - **Input**: Line 1 denotes the string with no newline characters and Line 2 denotes the length, `L` of the suffix

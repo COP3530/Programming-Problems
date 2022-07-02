@@ -12,16 +12,19 @@ Create a function that takes in these two numbers (`x` and `y`) as string inputs
 - 0 < `x`.length, `y`.length <= 10^8 
 - `y`.length >= `x`.length 
 
-### Example 1
-> `Input: 8 56981234`  
-> `Output: 1234569`
+### Sample Input
+```c++
+8 56981234
+```
 
-### Example 2
-> `Input: 1234 12345`  
-> `Output: 5`
+### Sample Output
+```c++
+1234569
+```
 
 ### Explanation 
-The sample input consists of two strings separated by a space and the sample output consists of the newly inserted digit(s) that was/were added to the shuffled first string in an ascending order.  
+- **Input**: The sample input consists of two strings separated by a space denoting the two numbers, `x` and `y`.
+- **Output**: The sample output consists of the newly inserted digit(s) that was/were added to the shuffled first string in an ascending order.  
 
 ### Problem Attributes
 - Author: Amanpreet Kapoor
@@ -29,10 +32,8 @@ The sample input consists of two strings separated by a space and the sample out
 - Date Created: 07/02/2022
 - Last Modified: 07/02/2022
 
-
 ### Submission instructions
 Code your solution in src/find_the_digits.h and upload the find_the_digits.h file on Canvas.
-
 
 ### Unit test instructions
 To run unit tests, open terminal and go to the find_the_digits directory. At this directory, run the following command:

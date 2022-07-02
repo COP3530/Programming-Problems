@@ -58,7 +58,7 @@ The following Node class is already defined
 for you and we have already implemented the 
 insert() and main() function:
 
-```
+```c++
 class Node {
     public:
         int value;
@@ -66,13 +66,15 @@ class Node {
 };
 ```
 
-### Example 1 Input:
-> `2 4 4 5 6 7 8`
+### Sample Input:
+```c++
+2 4 4 5 6 7 8
+```
 
-### Example 1 Output:
-> `3.00` 
-
-&nbsp;
+### Sample Output:
+```c++
+3.00 
+```
 
 ### Explanation:
 - Input is a set of numbers inserted into a 
@@ -89,30 +91,20 @@ places in main using setprecision().
 - You can use the calculator at above link to generate
  sample test cases.
 
- &nbsp;
-
 ### Constraints
 - The list is limited to positive numbers.
 - The list will have at least 4 values.
 - The list is sorted.
 
-&nbsp;
-
 ### Difficulty
 Hard (+60 minutes)  
-
-&nbsp;
 
 **Author:** `Robert Casanova and Amanpreet Kapoor`, 
 **Date Created:** `13 Sep 2020`, 
 **Last Modified:** `22 May 2022`
 
-&nbsp;
-
 ### Submission instructions
 Code your solution in src/interquartile_range.h and upload the interquartile_range.h file on Canvas.  
-
-&nbsp;
 
 ### Unit test instructions
 To run unit tests, open terminal and go to the interquartile_range.h directory. At this directory, run the following command:
