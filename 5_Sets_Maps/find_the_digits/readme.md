@@ -27,7 +27,7 @@ Create a function that takes in these two numbers (`x` and `y`) as string inputs
 - **Output**: The sample output consists of the newly inserted digit(s) that was/were added to the shuffled first string in an ascending order.  
 
 ### Problem Attributes
-- Author: Amanpreet Kapoor
+- Author: Kunyao Wang and Amanpreet Kapoor
 - Difficulty: Medium (30-44 minutes)
 - Date Created: 07/02/2022
 - Last Modified: 07/02/2022
