@@ -1,5 +1,6 @@
-## Problem Statement  
+# Extract Max
 
+## Problem Statement  
 Write C++ code for a function, *extractMax()* that takes as input a max heap, *arr* represented as an integer array and the size of the array, *size*. The function deletes the maximum element in the max heap and **returns** the new max heap array after deletion.
 
 ### Constraints
