@@ -33,7 +33,7 @@ et tu, brute
 
 ## Submission instructions
 
- Code your solution in `src/suffix_count.h` and upload the `suffix_count.h` file on Canvas.
+ Code your solution in `src/cop3530_1_1.h` and upload the `cop3530_1_1.h` file on Canvas.
 
 <br>
 
@@ -44,14 +44,4 @@ To run **unit tests**, open terminal and go to the `suffix_count` directory. At 
 `g++ -std=c++14 -Werror -Wuninitialized -o test test-unit/test.cpp && ./test`
 
 This will show you which tests you pass. We encourage you to build your own tests.
-
-<br>
-
-## IO test instructions
-
-To run **IO tests**, open terminal and go to the `suffix_count` directory. At this directory, run the following command:  
-
-`g++ -std=c++14 -Werror -Wuninitialized -o main test-io/main.cpp && ./main < test-io/input-files/1.txt > test-io/output-files/1.txt && diff -w test-io/expected-output-files/1.txt test-io/output-files/1.txt`
-
-This will show you if you pass `test 1`. In general, to check if you pass `test n`, replace `1.txt` with `n.txt`. We encourage you to build your own IO tests.
 
