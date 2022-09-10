@@ -92,7 +92,7 @@ places in main using setprecision().
  sample test cases.
 
 ### Constraints
-- The list is limited to positive numbers.
+- The list can contain any integers.
 - The list will have at least 4 values.
 - The list is sorted.
 
@@ -101,10 +101,10 @@ Hard (+60 minutes)
 
 **Author:** `Robert Casanova and Amanpreet Kapoor`, 
 **Date Created:** `13 Sep 2020`, 
-**Last Modified:** `22 May 2022`
+**Last Modified:** `10 Sep 2022`
 
 ### Submission instructions
-Code your solution in `src/interquartile_range.h` and upload the `interquartile_range.h` file on Canvas.  
+Code your solution in `src/cop3530_2_3_range.h` and upload the `cop3530_2_3.h` file on Canvas.  
 
 ### Unit test instructions
 To run unit tests, open terminal and go to the `interquartile_range` directory. At this directory, run the following command:
