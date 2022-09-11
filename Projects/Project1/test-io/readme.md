@@ -1,12 +1,12 @@
 ## Running your code with public io based tests  
  
-To check your output (At the Project1 directory):  
+To test your output locally, open a terminal preferably bash based e.g. **git bash**. Make sure you are in the Project1 directory. Then do the following to see your ouput for each test:  
 
 #### Public Test 1:
 
 `g++ -std=c++14 -Werror -Wuninitialized -o build/test_io src/main.cpp && build/test_io < test-io/input-files/1.txt`
         
-#### Public Test N (TYPE N):
+#### Public Test N (where N in the test case number):
 
 `g++ -std=c++14 -Werror -Wuninitialized -o build/test_io src/main.cpp && build/test_io < test-io/input-files/N.txt`
 
@@ -18,7 +18,19 @@ Alternatively, you can test your output with the expected output for the sample 
 
 #### Public Test 1:
 
+Run these three commands:
+
+> g++ -std=c++14 -Werror -Wuninitialized -o build/test_io src/main.cpp    
+
+> build/test_io < test-io/input-files/1.txt > test-io/output-files/1.txt  
+
+> diff -w test-io/expected-output-files/1.txt test-io/output-files/1.txt
+
+
+##### Or Run this: 
+
 `g++ -std=c++14 -Werror -Wuninitialized -o build/test_io src/main.cpp && build/test_io < test-io/input-files/1.txt > test-io/output-files/1.txt && diff -w test-io/expected-output-files/1.txt test-io/output-files/1.txt`
+
 
 #### Public Test 2:
 
