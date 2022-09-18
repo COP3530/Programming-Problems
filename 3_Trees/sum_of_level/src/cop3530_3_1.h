@@ -54,7 +54,7 @@ void destruct(TreeNode* root)
     destruct(root->left);
   if (root->right) 
     destruct(root->right);
-	delete root;
+  delete root;
 }
 
 int sumOfLevel(TreeNode* root, int level) 
