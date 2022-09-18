@@ -50,9 +50,9 @@ TreeNode* insert(TreeNode* root, int data)
 // This will be called in main to deallocate memory
 void destruct(TreeNode* root) 
 {
-	if (root->left) 
+  if (root->left) 
     destruct(root->left);
-	if (root->right) 
+  if (root->right) 
     destruct(root->right);
 	delete root;
 }
