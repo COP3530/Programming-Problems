@@ -33,7 +33,7 @@ Given the root node of an non-empty Binary Search Tree and a certain level, `L`,
 - Last Modified: 01/31/2022
 
 ### Submission instructions
-Code your solution in `src/sum_of_level.h` and upload the `sum_of_level.h` file on Canvas.
+Code your solution in `src/cop3530_3_1.h` and upload the `cop3530_3_1.h` file on Canvas.
 
 ### Unit test instructions
 To run unit tests, open terminal and go to the `sum_of_level` directory. At this directory, run the following command:

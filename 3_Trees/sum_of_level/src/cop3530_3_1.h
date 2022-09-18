@@ -1,5 +1,5 @@
 /*
-  Quiz 4: Sum of a Level
+  Sum of a Level
 
   Given the root node of an non-empty Binary Search Tree 
 	and a certain level, L, write a function that returns the
