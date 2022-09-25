@@ -69,11 +69,15 @@ class Node {
 ### Restriction:
 For this problem, we ask that you use properties of lists rather than using another container,
 for example you cannot move all of the elements into a vector and then find the IQR of the vector.
-Additionally, you should not count the elements of the list to use e.g. count/4 and 3*count/4
-to determine the locations of Q1 and Q3 in the list.
+Additionally, you should not count the elements of the list and use this count
+to determine the locations of Q1 and Q3 in the list (e.g. count/4 and 3*count/4).
 Instead, you should use the properties of linked lists and list traversal ideas we've brought up
 in class/discussion to solve this problem.
 (Hint: Think about how you can adapt the slow/fast pointer technique to solve this problem).
+
+Some examples of acceptable code structures would be
+using one loop with any number of conditionals outside the loop,
+or using a divide and conquer approach.
 
 Note: When using fast/slow pointer to find a median,
 you may use the size of the list to see if it's even or odd,
