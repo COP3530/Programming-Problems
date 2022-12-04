@@ -1,9 +1,9 @@
-#include "../src/exploring_swamp.h"
+#include "../src/cop3530_9_1.h"
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 
 /*
-	To check output (At the andrewfied_dijkstra directory):
+	To check output (At the exploring_swamp directory):
 		g++ -std=c++14 -Werror -Wuninitialized -o test test-unit/test.cpp && ./test
 */
 

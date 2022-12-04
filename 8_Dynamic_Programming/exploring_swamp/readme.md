@@ -27,7 +27,7 @@ coffee beans that Albert can collect as he traverses through the swamp. Implemen
 ### Explanation 
 - **Input** consists of m+1 lines
   -  Line 1 of input denotes two integers `m` representing number of rows and `n` representing number of columns.
-  - `m` lines follow in the input, each line repesenting a row in the grid and containing `n` integers each representing the number of coffee  beans.
+  - `m` lines follow in the input, each line repesenting a row in the grid and containing `n` integers each representing the number of coffee beans.
 - **Output** is the global optimal.
   - In the example input, it is calculated as 5 + 8 + 6 + 9 + 2 = 30 which is the maximum number of coffee beans that Albert can pick up.
 
@@ -35,10 +35,10 @@ coffee beans that Albert can collect as he traverses through the swamp. Implemen
 - Author: Victoria Mei
 - Difficulty: Hard (44-120 minutes)
 - Date Created: 04/16/2022
-- Last Modified: 04/16/2022
+- Last Modified: 12/04/2022
 
 ### Submission instructions
-Code your solution in `src/exploring_swamp.h` and upload the `exploring_swamp.h` file on Canvas.
+Code your solution in `src/cop3530_9_1.h` and upload the `cop3530_9_1.h` file on Canvas.
 
 ### Unit test instructions
 To run unit tests, open terminal and go to the `exploring_swamp` directory. At this directory, run the following command:
