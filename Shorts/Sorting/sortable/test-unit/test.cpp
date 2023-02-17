@@ -7,7 +7,7 @@
 		g++ -std=c++14 -Werror -Wuninitialized -o test test-unit/test.cpp && ./test
 */
 
-TEST_CASE("Function: sortFirstHalf", "[given]") {
+TEST_CASE("Function: sortFirstHalf 1", "[given]") {
     vector<int> test = {6, 5, 4, 3, 2, 1};
     test = sortFirstHalf(test);
 
