@@ -1,10 +1,9 @@
 /*
     Are permutations
 
-    Given an array of strings strs such that each string only consists of lowercase letters, 
-    write a method that returns true if they are all permutations of each other. 
-    Two strings strs[i] and strs[j] are permutations of each other if the characters 
-    of strs[i] can be rearranged to match strs[j].
+    In this problem, you are given an array of strings strs such that each string only consists of lowercase letters. 
+    Two strings strs[i] and strs[j] are permutations of each other if all the characters of strs[j] can be rearranged
+    such that strs[i] == strs[j]. Write a method that returns true if all the strings in strs are permutations of each other.
 
     Example 1:
         Input: strs = ["abba", "bbaa", "aabb"]
