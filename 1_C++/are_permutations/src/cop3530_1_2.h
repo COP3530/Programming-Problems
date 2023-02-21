@@ -8,27 +8,24 @@
     Example 1:
         Input: strs = ["abba", "bbaa", "aabb"]
         Output: true
-        Explanation: All the strings are permutations of each other.
+        Explanation: Each string can be rearranged to match another
 
     Example 2:
         Input: strs = ["abc", "abbc"]
         Output: false
-        Explanation: The strings are not permutations of each other.
+        Explanation: “abc” cannot be rearranged to “abbc” because it only has one ‘b’
 
     Example 3:
         Input: strs = ["gator", "rotag", "sator"]
         Output: false
-        Explanation: The strings are not permutations of each other.
     
     Example 4:
         Input: strs = ["shoes", "sheso", "hesos", "shooes", "shoe"]
         Output: false
-        Explanation: The strings are not permutations of each other.
 
     Example 5:
         Input: strs = [""]
         Output: true
-        Explanation: The strings are permutations of each other.
 */
 
 #include <iostream>
