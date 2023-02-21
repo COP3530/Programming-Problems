@@ -46,7 +46,7 @@ Output: true
 ### Constraints
 
 - 1 <= `strs.length` <= 10^4
-- 1 <= `strs[i].size` <= 100
+- 0 <= `strs[i].size` <= 100
 - `strs[i]` only consists of lowercase letters
 
 ### Problem Attributes
