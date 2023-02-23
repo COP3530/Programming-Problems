@@ -4,7 +4,7 @@
 
 In this problem, you are given an array of strings `strs` such that each string only consists of lowercase letters. Two strings `strs[i]` and `strs[j]` are permutations of each other if all the characters of `strs[j]` can be rearranged such that `strs[i] == strs[j]`. Write a method that returns true if **all** the strings in `strs` are permutations of each other.
 
-### Sample Input
+### Sample Test Cases
 
 **Example 1:**
 
@@ -54,4 +54,4 @@ Output: true
 - Author: Matthew DeGuzman
 - Difficulty: Easy (15-30 minutes)
 - Date Created: 02/18/2022
-- Last Modified: 02/18/2022
+- Last Modified: 02/22/2022
