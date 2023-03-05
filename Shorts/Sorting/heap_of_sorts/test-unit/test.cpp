@@ -6,7 +6,7 @@
 #include <algorithm>
 
 /*
-	To check output (At the sum_of_level directory):
+	To check output (At the heap_of_sorts directory):
 		g++ -std=c++14 -Werror -Wuninitialized -o test test-unit/test.cpp && ./test
 */
 

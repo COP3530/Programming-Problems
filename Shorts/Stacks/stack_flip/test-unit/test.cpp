@@ -3,7 +3,7 @@
 #include "catch.hpp"
 
 /*
-	To check output (At the sum_of_level directory):
+	To check output (At the stack_flip directory):
 		g++ -std=c++14 -Werror -Wuninitialized -o test test-unit/test.cpp && ./test
 */
 
