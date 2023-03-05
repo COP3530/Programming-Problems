@@ -1,4 +1,4 @@
-#include "../src/stack_ops.h"
+#include "../src/cop3530_10_2.h"
 #include <stack>
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"

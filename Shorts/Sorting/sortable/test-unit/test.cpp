@@ -1,4 +1,4 @@
-#include "../src/sortable.h"
+#include "../src/cop3530_10_3.h"
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 

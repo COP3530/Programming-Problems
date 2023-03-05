@@ -1,4 +1,4 @@
-#include "../src/heap_of_sorts.h"
+#include "../src/cop3530_10_4.h"
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 
