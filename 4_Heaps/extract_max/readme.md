@@ -6,6 +6,7 @@ Write C++ code for a function, *extractMax()* that takes as input a max heap, *a
 ### Constraints
 - *size* >= 1  
 - The array passed into the *extractMax()* satisfies the max heap constraints.
+- All elements are unique.
 
 ### Sample Input
 ```c++
