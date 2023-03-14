@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-Suppose you are given an array of strings `str`. Return all strings in **str** that is a substring of any other string in `str` only if **all** returned strings have the same length.
+Suppose you are given an array of strings `str`. Return all strings in `str` that is a substring of any other string in `str` only if **all** returned strings have the same length.
 
 You can return the answer in an array of matched strings in any order.
 
