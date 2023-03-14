@@ -36,7 +36,7 @@ Explanation: “bat” is a substring of “batman” and “batmans”. “batm
 
 ```text
 Input: str = [“sing”, “singapore”, “singing”]
-Output:  [“sing”]
+Output: [“sing”]
 Explanation: “sing” is a substring of “singapore” and “singing”. Since there are no other substrings to compare “sing” to, we return the one substring “sing”.
 ```
 
