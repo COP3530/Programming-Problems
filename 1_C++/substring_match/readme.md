@@ -51,7 +51,7 @@ Explanation: The given array of strings str is empty.
 
 - All the strings in `str` are unique
 - `str[i]` contain only lowercase English letters
-- 0 ≤ `str.length` ≤100 (make upper bound)
+- 0 ≤ `str.length` ≤ 100
 - `str[i].size` ≥ 1
 
 ### Problem Attributes
