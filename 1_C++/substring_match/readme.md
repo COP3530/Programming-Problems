@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-Suppose you are given an array of strings `str`. Return all strings in `str` that is a substring of any other string in `str` only if **all** returned strings have the same length.
+Suppose you are given an array of strings `str`. Return all strings in `str` that is a substring of any other string in `str` **only if** all returned strings have the same length.
 
 You can return the answer in an array of matched strings in any order.
 
@@ -14,7 +14,7 @@ You can return the answer in an array of matched strings in any order.
 ```text
 Input: str = [“place”, “misplacement”, “great”, "greatest"]
 Output: ["place", "great"]
-Explanation:  “place” is a substring of “misplacement” and “great” is a substring of “greatest”. Both substrings “place” and “great” have the same length.
+Explanation: “place” is a substring of “misplacement” and “great” is a substring of “greatest”. Both substrings “place” and “great” have the same length.
 ```
 **Example 2:**
 
