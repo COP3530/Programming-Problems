@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-Suppose you are given an array of strings **str**. Return all strings in **str** that is a substring of any other string in **str** only if all returned strings have the same length.
+Suppose you are given an array of strings `str`. Return all strings in **str** that is a substring of any other string in `str` only if **all** returned strings have the same length.
 
 You can return the answer in an array of matched strings in any order.
 
@@ -49,14 +49,14 @@ Explanation: The given array of strings str is empty.
 ```
 ### Constraints
 
-- All the strings in str are unique
-- str[i] contain only lowercase English letters
-- 0 ≤ str.length ≤100 (make upper bound)
-- str[i].length ≥ 1
+- All the strings in `str` are unique
+- `str[i]` contain only lowercase English letters
+- 0 ≤ `str.length` ≤100 (make upper bound)
+- `str[i].size` ≥ 1
 
 ### Problem Attributes
 
 - Author: Meaghan Estrada
 - Difficulty: Medium (20-30 minutes)
-- Date Created: 3.6.2023
-- Last Modified: 3.8.2023
+- Date Created: 3/6/2023
+- Last Modified: 3/8/2023
