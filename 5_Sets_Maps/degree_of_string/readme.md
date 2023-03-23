@@ -21,7 +21,7 @@ Explanation: The maximum frequency is 2, and the smallest contiguous substring t
 ```text
 Input: str = “hiHighh”
 Output: 7
-Explanation: The maximum frequency is 3. Note that 'H' and 'h' are considered different characters, so 'h' has a frequency of 3 and 'H' has frequency of 1. Therefore, the smallest contiguous substring is "hiHighh" which has length 7.
+Explanation: The maximum frequency is 3. Note that 'H' and 'h' are considered different characters, so 'h' has a frequency of 3 and 'H' has frequency of 1. Therefore, the smallest contiguous substring with the same degree as str is "hiHighh" which has length 7.
 ```
 
 **Example 3:**
