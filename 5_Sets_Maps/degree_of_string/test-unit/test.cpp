@@ -9,7 +9,7 @@
 
 TEST_CASE("Case 1")
 {
-    REQUIRE(degreeOfString("“fl1pthat”") == 4);
+    REQUIRE(degreeOfString("fl1pthat") == 4);
 }
 
 TEST_CASE("Case 2")
