@@ -53,6 +53,6 @@ Output: 2
 ## Problem Attributes
 
 - Author: Matthew DeGuzman
-- Difficulty: Easy (15-30 minutes)
+- Difficulty: Medium (30-60 minutes)
 - Date Created: 03/22/23
 - Last Modified: 03/22/23

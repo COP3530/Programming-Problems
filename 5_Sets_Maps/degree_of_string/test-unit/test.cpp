@@ -1,9 +1,9 @@
-#include "../src/degree_of_string.h"
+#include "../src/cop3530_5_2.h"
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 
 /*
-    To check output (At the are_permutations directory):
+    To check output (At the degree_of_string directory):
         g++ -std=c++14 -Werror -Wuninitialized -o test test-unit/test.cpp && ./test
 */
 
