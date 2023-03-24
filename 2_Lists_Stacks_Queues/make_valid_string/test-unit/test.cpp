@@ -1,4 +1,4 @@
-#include "../src/cop3530_2.5_2.h"
+#include "../src/cop3530_2_5.h"
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 #include <stack>
