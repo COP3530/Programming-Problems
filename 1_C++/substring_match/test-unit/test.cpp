@@ -15,7 +15,7 @@ TEST_CASE("Case 1") {
 	substringMatch(str, result);
 	std::sort(str.begin(), str.end());
 	std::sort(result.begin(), result.end());
-    REQUIRE(result == expected);
+	REQUIRE(result == expected);
 }
 
 TEST_CASE("Case 2") {
@@ -25,7 +25,7 @@ TEST_CASE("Case 2") {
 	substringMatch(str, result);
 	std::sort(str.begin(), str.end());
 	std::sort(result.begin(), result.end());
-    REQUIRE(result == expected);
+	REQUIRE(result == expected);
 }
 
 TEST_CASE("Case 3") {
@@ -35,7 +35,7 @@ TEST_CASE("Case 3") {
 	substringMatch(str, result);
 	std::sort(str.begin(), str.end());
 	std::sort(result.begin(), result.end());
-    REQUIRE(result == expected);
+	REQUIRE(result == expected);
 }
 
 TEST_CASE("Case 4") {
@@ -45,7 +45,7 @@ TEST_CASE("Case 4") {
 	substringMatch(str, result);
 	std::sort(str.begin(), str.end());
 	std::sort(result.begin(), result.end());
-    REQUIRE(result == expected);
+	REQUIRE(result == expected);
 }
 
 TEST_CASE("Case 5") {
@@ -53,5 +53,5 @@ TEST_CASE("Case 5") {
 	std::vector<std::string> result;
 	std::vector<std::string> expected = {};
 	substringMatch(str, result);
-    REQUIRE(result == expected);
+	REQUIRE(result == expected);
 }
