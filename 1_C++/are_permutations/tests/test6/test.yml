@@ -1,0 +1,6 @@
+weight: 1.0
+name: 'Test 06: Repetitive Character'
+message: 'String with Repetitive Character'
+show_output: false
+timeout: 10
+visibility: after_published

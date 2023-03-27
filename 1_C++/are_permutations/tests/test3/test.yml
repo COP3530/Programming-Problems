@@ -1,0 +1,6 @@
+weight: 1.0
+name: 'Test 03: Input Given'
+message: 'Input: ["gator", "rotag", "sator"] | Output: Think about this?'
+show_output: true
+timeout: 10
+visibility: visible 
