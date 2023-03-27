@@ -19,7 +19,7 @@ TEST_CASE("Case 1") {
 }
 
 TEST_CASE("Case 2") {
-    std::vector<std::string> str = {"red", "blue", "rd"};
+	std::vector<std::string> str = {"red", "blue", "rd"};
 	std::vector<std::string> result;
 	std::vector<std::string> expected = {};
 	substringMatch(str, result);
@@ -29,7 +29,7 @@ TEST_CASE("Case 2") {
 }
 
 TEST_CASE("Case 3") {
-    std::vector<std::string> str = {"bat", "batman", "batmans", "cat", "category"};
+	std::vector<std::string> str = {"bat", "batman", "batmans", "cat", "category"};
 	std::vector<std::string> result;
 	std::vector<std::string> expected = {};
 	substringMatch(str, result);
@@ -49,7 +49,7 @@ TEST_CASE("Case 4") {
 }
 
 TEST_CASE("Case 5") {
-    std::vector<std::string> str = {};
+	std::vector<std::string> str = {};
 	std::vector<std::string> result;
 	std::vector<std::string> expected = {};
 	substringMatch(str, result);
