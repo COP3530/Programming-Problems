@@ -1,0 +1,6 @@
+weight: 1.0
+name: 'Test 02: Given'
+message: 'Input: "{)" | Output: "{()}"'
+show_output: true
+timeout: 10
+visibility: visible 
