@@ -59,6 +59,6 @@ void destruct(TreeNode *root)
 
 int countGoodNodes(TreeNode *root)
 {
-    // code here
+    // your code here :)
     return 0;
 }

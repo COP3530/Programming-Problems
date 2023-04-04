@@ -10,6 +10,16 @@
 TEST_CASE("Example 1")
 {
     TreeNode *root = insert(std::vector<int>{5, 5, 3, 3, INT_MIN, 8, 1,
-                                             2, 3, 0, 0, INT_MIN, 2});
+                                             2, 3, INT_MIN, INT_MIN, 0, 0, INT_MIN, 2});
     REQUIRE(countGoodNodes(root) == 3);
+}
+TEST_CASE("Example 2")
+{
+    TreeNode *root = insert(std::vector<int>{2, 0, 2});
+    REQUIRE(countGoodNodes(root) == 3);
+}
+TEST_CASE("Example 3")
+{
+    TreeNode *root = insert(std::vector<int>{9, INT_MIN, 7, INT_MIN, INT_MIN, INT_MIN, 5});
+    REQUIRE(countGoodNodes(root) == 0);
 }
