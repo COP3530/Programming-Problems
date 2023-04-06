@@ -1,0 +1,11 @@
+# ninja log v5
+317	204618	7018377049900251	CMakeFiles/Programming_Problems.dir/Shorts/Sorting/sortable/test-unit/test.cpp.obj	4ba4add4df2f6db3
+376	92704	7018423939011571	CMakeFiles/Programming_Problems.dir/Shorts/Sets_Maps/set_mod/test-unit/test.cpp.obj	840b89b6ddf97620
+307	204338	7018377046760275	CMakeFiles/Programming_Problems.dir/Shorts/Sorting/heap_of_sorts/test-unit/test.cpp.obj	1a805c0dd5e3eeb9
+4	3023	7018499959350202	build.ninja	3ba3db744665dfcb
+204339	274699	7018377745991303	CMakeFiles/Programming_Problems.dir/Shorts/Stacks/stack_ops/test-unit/test.cpp.obj	423db0472e61e7a8
+204241	274743	7018377748141299	CMakeFiles/Programming_Problems.dir/Shorts/Stacks/stack_flip/test-unit/test.cpp.obj	3663380ca52db78d
+92708	254684	7018425559453754	Programming_Problems.exe	d1c7253b6c331a08
+96	5756	7018499959350202	build.ninja	3ba3db744665dfcb
+1	54973	7018502488822160	CMakeFiles/Programming_Problems.dir/Shorts/Sets_Maps/modset/test-unit/test.cpp.obj	35fe3288377dd3a9
+54977	285321	7018504793083006	Programming_Problems.exe	22515a7a345a3730

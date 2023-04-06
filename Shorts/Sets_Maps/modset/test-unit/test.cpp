@@ -1,9 +1,9 @@
-#include "../src/set_mod.h"
+#include "../src/cop3530_10_6.h"
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 
 /*
-        To check output (At the set_mod directory):
+        To check output (At the modset directory):
                 g++ -std=c++14 -Werror -Wuninitialized -o test test-unit/test.cpp && ./test
 */
 
@@ -31,7 +31,7 @@ TEST_CASE("Function: insert all, past capacity", "[given]") {
     s.insert("Carlos");     // length 6 => index 1
     s.insert("Abidemi");    // length 7 => index 2
 
-    s.insert("Sergei"); // past capacity, no effect
+    s.insert("Sergei");  // past capacity, no effect
     s.insert("Jakub");   // past capacity, no effect
 
     REQUIRE(s.size == 5);
