@@ -18,7 +18,7 @@ Input: [5, 5, 3, 3, null, 8, 1, 2, 3, 0, 0, null, 2]
    /       /  \
   3       8    1
  /  \    / \    \
-2   3   0   0    2
+2    3  0   0    2
 Output: 3
 Explanation: There are three nodes at the bottom level which are even and there exists no nodes with lesser value on their respective root paths (The leftmost node with value 2 and the nodes with value 0 are the good nodes). 
 ```
