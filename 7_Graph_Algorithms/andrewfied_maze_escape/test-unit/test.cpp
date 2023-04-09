@@ -1,4 +1,4 @@
-#include "../src/cop3530_7_2.h"
+#include "../src/maze_escape.h"
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 

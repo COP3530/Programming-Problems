@@ -50,7 +50,7 @@ the initial step from 's' and the final step to 't').
 - Last Modified: 11/12/2022
 
 ### Submission instructions
-Code your solution in `src/cop3530_7_2.h` and upload the `cop3530_7_2.h` file on Canvas.
+Code your solution in `src/maze_escape.h` and upload the `maze_escape.h` file on Canvas.
 
 ### Unit test instructions
 To run unit tests, open terminal and go to the `andrewfied_maze_escape` directory. At this directory, 
