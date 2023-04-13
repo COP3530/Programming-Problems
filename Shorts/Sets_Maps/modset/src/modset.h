@@ -11,7 +11,7 @@ class Set {
     Set(int capacity) {
         this->size = 0;
         this->capacity = capacity;
-        _set = vector<string>(capacity, "");
+        _set = vector<string>(capacity, "empty");
     }
 
     void insert(string s);
@@ -23,4 +23,18 @@ class Set {
 
 void Set::insert(string s) {
     // Your code here :)
+
+    if (size == capacity) return;
+    int i = hash(s);
+
+    while (_set[i] != "empty") {
+        if (_set[i] == s)
+            return;
+
+        i++;
+        i %= capacity;
+    }
+
+    _set[i] = s;
+    size++;
 }

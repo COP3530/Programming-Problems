@@ -1,4 +1,4 @@
-#include "../src/cop3530_10_6.h"
+#include "../src/modset.h"
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 
@@ -13,14 +13,13 @@ TEST_CASE("Function: insert all", "[given]") {
     s.insert("Aakanksha");  // length 9 => index 4
     s.insert("Wei");        // length 3 => index 3
     s.insert("Carlos");     // length 6 => index 1
-    s.insert("Abidemi");    // length 7 => index 2
 
-    REQUIRE(s.size == 5);
     REQUIRE(s._set[0] == "Alice");
     REQUIRE(s._set[1] == "Carlos");
-    REQUIRE(s._set[2] == "Abidemi");
+    REQUIRE(s._set[2] == "empty");
     REQUIRE(s._set[3] == "Wei");
     REQUIRE(s._set[4] == "Aakanksha");
+    REQUIRE(s.size == 4);
 }
 
 TEST_CASE("Function: insert all, past capacity", "[given]") {
@@ -34,12 +33,12 @@ TEST_CASE("Function: insert all, past capacity", "[given]") {
     s.insert("Sergei");  // past capacity, no effect
     s.insert("Jakub");   // past capacity, no effect
 
-    REQUIRE(s.size == 5);
     REQUIRE(s._set[0] == "Alice");
     REQUIRE(s._set[1] == "Carlos");
     REQUIRE(s._set[2] == "Abidemi");
     REQUIRE(s._set[3] == "Wei");
     REQUIRE(s._set[4] == "Aakanksha");
+    REQUIRE(s.size == 5);
 }
 
 TEST_CASE("Function: insert all, duplicates", "[given]") {
@@ -53,12 +52,12 @@ TEST_CASE("Function: insert all, duplicates", "[given]") {
     s.insert("Abidemi");    // length 7 => index 2
     s.insert("Abidemi");    // duplicate
 
-    REQUIRE(s.size == 5);
     REQUIRE(s._set[0] == "Alice");
     REQUIRE(s._set[1] == "Carlos");
     REQUIRE(s._set[2] == "Abidemi");
     REQUIRE(s._set[3] == "Wei");
     REQUIRE(s._set[4] == "Aakanksha");
+    REQUIRE(s.size == 5);
 }
 
 TEST_CASE("Function: insert all, collisions", "[given]") {
@@ -69,12 +68,12 @@ TEST_CASE("Function: insert all, collisions", "[given]") {
     s.insert("Bob");        // length 3 => index 3 => index 1
     s.insert("Carlos");     // length 6 => index 1 => index 2
 
-    REQUIRE(s.size == 5);
     REQUIRE(s._set[0] == "Alice");
     REQUIRE(s._set[1] == "Bob");
     REQUIRE(s._set[2] == "Carlos");
     REQUIRE(s._set[3] == "Wei");
     REQUIRE(s._set[4] == "Aakanksha");
+    REQUIRE(s.size == 5);
 }
 
 TEST_CASE("Function: insert all, duplicates and collisions", "[given]") {
@@ -88,10 +87,10 @@ TEST_CASE("Function: insert all, duplicates and collisions", "[given]") {
     s.insert("Carlos");     // length 6 => index 1 => index 2
     s.insert("Carlos");     // duplicate
 
-    REQUIRE(s.size == 5);
     REQUIRE(s._set[0] == "Alice");
     REQUIRE(s._set[1] == "Bob");
     REQUIRE(s._set[2] == "Carlos");
     REQUIRE(s._set[3] == "Wei");
     REQUIRE(s._set[4] == "Aakanksha");
+    REQUIRE(s.size == 5);
 }
