@@ -1,9 +1,9 @@
-#include "../src/cop3530_7_2.h"
+#include "../src/maze_escape.h"
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 
 /*
-	To check output (At the andrewfied_maze_escape directory):
+	To check output (At the maze_escape directory):
 		g++ -std=c++14 -Werror -Wuninitialized -o test test-unit/test.cpp && ./test
 */
 
