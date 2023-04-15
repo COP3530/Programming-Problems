@@ -1,6 +1,0 @@
-weight: 1.0
-name: 'Test 09: Randomly Generated String'
-message: 'A vector containing 3 randomly generated strings that are permutations of each other.'
-show_output: false
-timeout: 10
-visibility: after_published

@@ -1,6 +1,0 @@
-weight: 1.0
-name: 'Test 07: Randomly Generated String'
-message: 'A vector containing 5 randomly generated strings that are not permutations of each other.'
-show_output: false
-timeout: 10
-visibility: after_published

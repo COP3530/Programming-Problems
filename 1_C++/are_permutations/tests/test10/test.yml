@@ -1,6 +1,0 @@
-weight: 1.0
-name: 'Test 10: Very Large String'
-message: 'A vector containing 2 very large randomly generated string that are permutations of each other.'
-show_output: false
-timeout: 10
-visibility: after_published

@@ -1,6 +1,0 @@
-weight: 1.0
-name: 'Test 05: Fully hidden (Base/Edge)'
-message: 'What could be a base or an edge case of this problem?'
-show_output: false
-timeout: 10
-visibility: after_published

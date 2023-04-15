@@ -27,3 +27,13 @@ TEST_CASE("Case 4") {
 TEST_CASE("Case 5") {
 	REQUIRE(makeValidString("([([([") == "([([([])])])");
 }
+
+TEST_CASE("Case 6")
+{
+	REQUIRE(makeValidString("[()[([") == "[()[([])]]");
+}
+
+TEST_CASE("Case 7")
+{
+	REQUIRE(makeValidString("([([([") == "([([([])])])");
+}

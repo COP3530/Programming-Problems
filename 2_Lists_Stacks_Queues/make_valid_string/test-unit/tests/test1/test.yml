@@ -1,6 +1,0 @@
-weight: 1.0
-name: 'Test 01: Given'
-message: 'Input: "(" Output: "()"'
-show_output: true
-timeout: 10
-visibility: visible 
