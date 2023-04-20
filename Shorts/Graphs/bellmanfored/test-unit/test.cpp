@@ -1,10 +1,10 @@
-#include "../src/cop3530_10_3.h"
+#include "../src/bellmanfored.h"
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 
 /*
-	To check output (At the sortable directory):
-		g++ -std=c++14 -Werror -Wuninitialized -o test test-unit/test.cpp && ./test
+        To check output (At the sortable directory):
+                g++ -std=c++14 -Werror -Wuninitialized -o test test-unit/test.cpp && ./test
 */
 
 TEST_CASE("Function: sortFirstHalf 1", "[given]") {
