@@ -3,7 +3,7 @@
 #include "catch.hpp"
 
 /*
-    To check output (At the sum_of_level directory):
+    To check output (At the hidden_gator directory):
         g++ -std=c++14 -Werror -Wuninitialized -o test test-unit/test.cpp && ./test
 */
 
@@ -22,5 +22,5 @@ TEST_CASE("Example 3")
 
 TEST_CASE("Example 4")
 {
-    REQUIRE(hiddenGator(4, std::vector<std::vector<int>>{}) == 1);
+    REQUIRE(hiddenGator(1, std::vector<std::vector<int>>{}) == 1);
 }
