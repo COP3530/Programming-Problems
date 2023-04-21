@@ -49,8 +49,6 @@ Output: 1
 Explanation: There are no students that do not know student 1, and student 1 does not know anyone, so student 1 is a gator.
 ```
 
-
-
 ## Constraints
 
 - `1 <= n <= 1000`
