@@ -19,3 +19,8 @@ TEST_CASE("Example 3")
 {
     REQUIRE(hiddenGator(4, std::vector<std::vector<int>>{{1, 2}, {2, 3}, {3, 1}}) == -1);
 }
+
+TEST_CASE("Example 4")
+{
+    REQUIRE(hiddenGator(4, std::vector<std::vector<int>>{}) == 1);
+}

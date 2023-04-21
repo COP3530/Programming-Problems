@@ -9,9 +9,9 @@ If the gator exists, then:
 1. The gator knows nobody.
 2. Everybody (except for the gator) knows the gator.
 
-There is at most one student that satisfies both properties.
+There is **at most one** student who is a gator and satisfies both properties.
 
-You are given an array `know` where `know[i]=[a_i, b_i]` denotes that the student labeled `a_i` knows the student labeled `b_i`. If a know relationship does not exist in `know` array, then such a know relationship does not exist.
+You are given a vector `know` of knowledge relations which are also vectors. A knowledge relation `know[i]=[a_i,b_i]` denotes that the student labeled `a_i` knows the student labeled `b_i` (note that `b_i` does not necessarily know `a_i`). If a knowledge relation does not exist in `know`, then such a knowledge relation does not exist.
 
 Return the label of the gator if the gator exists and can be identified, or return -1 otherwise.
 
@@ -38,16 +38,26 @@ Explanation: Every student knows some other student, thus, there is no gator.
 ```text
 Input: n = 4, know = [[1, 2], [2, 3], [3, 1]]
 Output: -1
-Explanation: The first three students know another student. There is a student a_4 that knows nobody, but the first three students do not know a_4, so we cannot determine that a_4 is a gator. Therefore, we return -1.
+Explanation: The first three students know another student. There is a student a_4 that knows nobody, but the first three students do not know a_4, so we cannot determine that a_4 is a gator.
 ```
+
+**Example 4:**
+
+```text
+Input: n = 1, know = []
+Output: 1
+Explanation: There are no students that do not know student 1, and student 1 does not know anyone, so student 1 is a gator.
+```
+
+
 
 ## Constraints
 
 - `1 <= n <= 1000`
 - `0 <= know.length <= 10^4`
-- `know[i].length == 2`
-- All the pairs of know are **unique**
-- `a_i != b_i`
+- `know[i].length = 2`
+- All the pairs of know are **unique** (no parallel edges)
+- `a_i != b_i` (no self loops)
 - `1 <= a_i, b_i <= n`
 
 ## Problem Attributes
