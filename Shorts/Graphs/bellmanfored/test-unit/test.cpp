@@ -7,47 +7,80 @@
                 g++ -std=c++14 -Werror -Wuninitialized -o test test-unit/test.cpp && ./test
 */
 
-TEST_CASE("Function: sortFirstHalf 1", "[given]") {
-    vector<int> test = {6, 5, 4, 3, 2, 1};
-    test = sortFirstHalf(test);
+TEST_CASE("Function: graph 1", "[given]") {
+    vector<vector<pair<int, int>>> graph = {
+        {{1, 4}, {2, 3}},
+        {{3, 2}},
+        {{1, -2}},
+        {}};
+    int src = 0;
+    vector<int> dists = bellman_ford(graph, src);
 
-    vector<int> ans = {4, 5, 6, 3, 2, 1};
-
-    REQUIRE(test == ans);
+    REQUIRE(dists[0] == 0);
+    REQUIRE(dists[1] == 1);
+    REQUIRE(dists[2] == 3);
+    REQUIRE(dists[3] == 3);
 }
 
-TEST_CASE("Function: sortFirstHalf 2", "[given]") {
-    vector<int> test = {2, 1, 5, 4, 3};
-    test = sortFirstHalf(test);
+TEST_CASE("Function: graph 2", "[given]") {
+    vector<vector<pair<int, int>>> graph = {
+        {{1, 4}, {2, 3}},
+        {{3, 2}},
+        {{1, -2}},
+        {}};
+    int src = 1;
+    vector<int> dists = bellman_ford(graph, src);
 
-    vector<int> ans = {1, 2, 5, 4, 3};
-
-    REQUIRE(test == ans);
+    REQUIRE(dists[0] == INT_MAX);
+    REQUIRE(dists[1] == 0);
+    REQUIRE(dists[2] == INT_MAX);
+    REQUIRE(dists[3] == 2);
 }
 
-TEST_CASE("Function: sortSecondHalf", "[given]") {
-    vector<int> test = {2, 1, 5, 4, 3};
-    test = sortSecondHalf(test);
+TEST_CASE("Function: graph 3", "[given]") {
+    vector<vector<pair<int, int>>> graph = {
+        {{1, 2}, {2, 1}},
+        {{3, 4}},
+        {{4, 3}},
+        {{5, -5}},
+        {{3, 1}},
+        {{2, 2}}};
+    int src = 0;
+    vector<int> dists = bellman_ford(graph, src);
 
-    vector<int> ans = {2, 1, 3, 4, 5};
-
-    REQUIRE(test == ans);
+    REQUIRE(dists[0] == 0);
+    REQUIRE(dists[1] == 2);
+    REQUIRE(dists[2] == 1);
+    REQUIRE(dists[3] == 5);
+    REQUIRE(dists[4] == 4);
+    REQUIRE(dists[5] == 0);
 }
 
-TEST_CASE("Function: sortReverse", "[given]") {
-    vector<int> test = {1, 2, 3, 4, 5};
-    test = sortReverse(test);
+TEST_CASE("Function: graph 4, negative weight cycle", "[given]") {
+    vector<vector<pair<int, int>>> graph = {
+        {{1, 1}, {2, 2}},
+        {{3, 3}},
+        {{4, 1}, {1, -6}},
+        {{2, 1}},
+        {{0, -1}}};
+    int src = 0;
+    vector<int> dists = bellman_ford(graph, 0);
 
-    vector<int> ans = {5, 4, 3, 2, 1};
-
-    REQUIRE(test == ans);
+    REQUIRE(dists == vector<int>());
+    cout << "Negative weight cycle found!";
 }
 
-TEST_CASE("Function: sortStructs", "[given]") {
-    vector<Student> test = {Student(3, "Bob"), Student(2, "Alice"), Student(1, "Charlie")};
-    test = sortStructs(test);
+TEST_CASE("Function: graph 5, negative weight cycle", "[given]") {
+    vector<vector<pair<int, int>>> graph = {
+        {{1, 1}},
+        {{2, 2}},
+        {{3, -4}, {4, 1}},
+        {{5, 3}},
+        {{2, -2}, {1, 2}},
+        {{4, -1}}};
+    int src = 0;
+    vector<int> dists = bellman_ford(graph, 0);
 
-    vector<Student> ans = {Student(1, "Charlie"), Student(2, "Alice"), Student(3, "Bob")};
-
-    REQUIRE(test == ans);
+    REQUIRE(dists == vector<int>());
+    cout << "Negative weight cycle found!";
 }
