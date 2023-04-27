@@ -12,12 +12,27 @@ vector<int> bellman_ford(vector<vector<pair<int, int>>>& adjList, int source) {
             if (dists[from] == INT_MAX) continue;
 
             for (auto p : adjList[from]) {
-                // Your code here :)
+                int to = p.first, weight = p.second;
+                // relax the from, to edge
+                if (dists[from] + weight < dists[to]) {
+                    dists[to] = dists[from] + weight;
+                }
             }
         }
     }
 
-    // Your code here :)
+    for (int from = 0; from < adjList.size(); from++) {
+        // we won't be able to relax any edges from this vertex
+        if (dists[from] == INT_MAX) continue;
+
+        for (auto p : adjList[from]) {
+            int to = p.first, weight = p.second;
+            // relax the from, to edge
+            if (dists[from] + weight < dists[to]) {
+                return vector<int>();
+            }
+        }
+    }
 
     return dists;
 }
