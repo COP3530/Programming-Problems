@@ -9,7 +9,7 @@
 
 TEST_CASE("Case 1")
 {
-    REQUIRE(fourDigitNumbers("0123") == std::vector<int>{1023, 1203, 2013, 2031, 2103, 2301, 3021});
+    REQUIRE(fourDigitNumbers("0123") == std::vector<int>{1023, 1203, 2013, 2031, 2103, 2301, 3021, 3201});
 }
 
 TEST_CASE("Case 2")

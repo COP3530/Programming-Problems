@@ -4,15 +4,16 @@
 
 You are given a string of integers `digits`, where each character represents an integer.
 
-You need to find **all** the unique integers that follow the given requirements:
+You need to find **all** the distinct unique integers that follow the given requirements:
 
 - The integer consists of the concatenation of *four* elements from digits in any arbitrary order.
 - The integer does **not** have leading zeros.
 - The integer is *odd*.
+- Each digit in the integer has a distinct index in `digits`
 
 For example, suppose `digits` = “1234”, then the integers 3421 and 1243 satisfy the above conditions.
 
-Return a **sorted** array of the unique integers.
+Return a **sorted** array of the distinct unique integers.
 
 ## Sample Test Cases
 
@@ -20,7 +21,7 @@ Return a **sorted** array of the unique integers.
 
 ```text
 Input: digits = “0123”
-Output: [1023, 1203, 2013, 2031, 2103, 2301, 3021]
+Output: [1023, 1203, 2013, 2031, 2103, 2301, 3021, 3201]
 Explanation: Each integer satisfies the conditions and is sorted
 ```
 
