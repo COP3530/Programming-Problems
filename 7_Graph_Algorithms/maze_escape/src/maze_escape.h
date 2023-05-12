@@ -1,5 +1,5 @@
 /*
-    Andrewfied Maze Escape
+    Maze Escape
 
     Sometimes when dealing with graphs, it is easiest to leave it in its input format 
     rather than creating another structure like an adjacency list/matrix. You are given 
