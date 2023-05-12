@@ -14,7 +14,6 @@ public:
 // This will be called in main to construct the tree
 TreeNode *insert(std::vector<int> nodes)
 {
-
     TreeNode *root = new TreeNode(nodes[0]);
     std::queue<std::pair<TreeNode *, int>> q;
 
@@ -43,7 +42,6 @@ TreeNode *insert(std::vector<int> nodes)
             q.push(std::pair<TreeNode *, int>(rightChild, rightIndex));
         }
     }
-
     return root;
 }
 
