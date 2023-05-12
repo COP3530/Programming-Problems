@@ -1,9 +1,9 @@
-#include "../src/cop3530_5_3.h"
+#include "../src/four_digits.h"
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 
 /*
-    To check output (At the four_digit_numers directory):
+    To check output (At the four_digits directory):
         g++ -std=c++14 -Werror -Wuninitialized -o test test-unit/test.cpp && ./test
 */
 
