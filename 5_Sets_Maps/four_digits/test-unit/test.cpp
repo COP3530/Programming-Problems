@@ -16,6 +16,7 @@ TEST_CASE("Case 2")
 {
     REQUIRE(fourDigitNumbers("11220") == std::vector<int>{1021, 1201, 1221, 2011, 2021, 2101, 2121, 2201, 2211});
 }
+
 TEST_CASE("Case 3")
 {
     REQUIRE(fourDigitNumbers("0022") == std::vector<int>{});
