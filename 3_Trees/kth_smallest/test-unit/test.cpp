@@ -1,9 +1,9 @@
-#include "../src/cop3530_3_3.h"
+#include "../src/kth_smallest.h"
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 
 /*
-	To check output (At the kth_smallest_value directory):
+	To check output (At the kth_smallest directory):
 		g++ -std=c++14 -Werror -Wuninitialized -o test test-unit/test.cpp && ./test
 */
 
