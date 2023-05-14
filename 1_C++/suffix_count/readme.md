@@ -33,7 +33,7 @@ et tu, brute
 
 ## Submission instructions
 
- Code your solution in `src/cop3530_1_1.h` and upload the `cop3530_1_1.h` file on Canvas.
+ Code your solution in `src/suffix_count.h` and upload the `suffix_count.h` file on Canvas.
 
 <br>
 

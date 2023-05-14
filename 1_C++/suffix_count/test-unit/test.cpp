@@ -1,4 +1,4 @@
-#include "../src/cop3530_1_1.h"
+#include "../src/suffix_count.h"
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 
