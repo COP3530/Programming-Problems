@@ -5,8 +5,7 @@ class TreeNode
 {
 public:
     int val;
-    TreeNode *left;
-    TreeNode *right;
+    TreeNode *left, *right;
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
 };
 
@@ -34,6 +33,7 @@ TreeNode *insert(std::vector<int> nodes)
             node->left = leftChild;
             q.push(std::pair<TreeNode *, int>(leftChild, leftIndex));
         }
+
         if (rightIndex < nodes.size() && nodes[rightIndex] != INT_MIN)
         {
             TreeNode *rightChild = new TreeNode(nodes[rightIndex]);
@@ -55,6 +55,6 @@ void destruct(TreeNode* root)
 }
 
 int levelFreq(TreeNode* root, int k){
-    //Your code here
+    //Your code here :) 
     return 0;
 }

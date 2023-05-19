@@ -7,24 +7,22 @@
 		g++ -std=c++14 -Werror -Wuninitialized -o test test-unit/test.cpp && ./test
 */
 
-TEST_CASE("Case 1") {
+TEST_CASE("Test Case 1") {
     std::vector<std::string> postfix = {"4", "3", "+"};
-
     REQUIRE(evalRPN(postfix) == 7);
 }
 
-TEST_CASE("Case 2") {
-
+TEST_CASE("Test Case 2") {
     std::vector<std::string> postfix = {"4", "3", "+", "2", "*"};
     REQUIRE(evalRPN(postfix) == 14);
 }
 
-TEST_CASE("Case 3") {
+TEST_CASE("Test Case 3") {
     std::vector<std::string> postfix = {"2", "3", "4", "+", "+"};
     REQUIRE(evalRPN(postfix) == 9);
 }
 
-TEST_CASE("Case 4") {
+TEST_CASE("Test Case 4") {
     std::vector<std::string> postfix = {"8", "2", "*", "3", "%"};
     REQUIRE(evalRPN(postfix) == 1);
 }
