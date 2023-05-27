@@ -1,4 +1,4 @@
-#include "../src/cop3530_2_3.h"
+#include "../src/interquartile_range.h"
 #include <vector>
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
