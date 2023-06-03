@@ -1,4 +1,4 @@
-#include "../src/cop3530_3_1.h"
+#include "../src/sum_of_level.h"
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 
