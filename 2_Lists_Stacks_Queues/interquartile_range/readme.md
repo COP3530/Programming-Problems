@@ -79,13 +79,6 @@ Some examples of acceptable code structures would be
 using one loop with any number of conditionals outside the loop,
 or using a divide and conquer approach.
 
-Note: When using fast/slow pointer to find a median,
-you may use the size of the list to see if it's even or odd,
-as this determines how you will find the median.
-If you are counting the nodes in the list to use it in this capacity,
-it is acceptable for this problem.
-**Any other use of a count for this problem is not allowed.**
-
 ### Sample Input:
 ```c++
 2 4 4 5 6 7 8
