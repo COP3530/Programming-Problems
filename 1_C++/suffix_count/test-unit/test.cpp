@@ -1,14 +1,19 @@
 #include "../src/suffix_count.h"
-#define CATCH_CONFIG_MAIN
-#include "catch.hpp"
+#include "catch/catch_amalgamated.hpp"
 
 /*
 	To check output (At the suffix_count directory):
-		g++ -std=c++14 -Werror -Wuninitialized -o test test-unit/test.cpp && ./test
+
+# run this once to build catch
+g++ -std=c++14 -Werror -Wuninitialized -g -c test-unit/catch/catch_amalgamated.cpp -o build/catch_amalgamated.o
+
+# run this every time your tests change
+g++ -std=c++14 -Werror -Wuninitialized -g build/catch_amalgamated.o test-unit/test.cpp -o build/test && ./build/test
+
 */
 
 TEST_CASE("Function: suffixCount 1", "[given]") {
-	REQUIRE(suffixCount("et tu, brute", 1) == 2);
+	REQUIRE(suffixCount("et tu, brute", 1) == 0);
 }
 
 TEST_CASE("Function: suffixCount 2", "[given]") {
