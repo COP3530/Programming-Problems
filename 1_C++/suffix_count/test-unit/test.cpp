@@ -12,10 +12,10 @@
 
     # If you do not have make...
     # run this once to build catch
-    g++ -std=c++14 -Werror -Wuninitialized -g -c test-unit/catch/catch_amalgamated.cpp -o build/catch_amalgamated.o
+    g++ -std=c++14 -Werror -Wuninitialized -g -c test-unit/catch/catch_amalgamated.cpp -o catch_amalgamated.o
 
     # then run this command to compile and run the tests (you do not need to run the previous command again)
-    g++ -std=c++14 -Werror -Wuninitialized -g build/catch_amalgamated.o test-unit/test.cpp -o build/test; ./build/test
+    g++ -std=c++14 -Werror -Wuninitialized -g catch_amalgamated.o test-unit/test.cpp -o test; ./test
 */
 
 TEST_CASE("Function: suffixCount 1", "[given]") {
