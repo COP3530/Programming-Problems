@@ -39,9 +39,26 @@ et tu, brute
 
 ## Unit test instructions
 
-To run **unit tests**, open terminal and go to the `suffix_count` directory. At this directory, run the following command:  
+To run **unit tests**, open terminal and go to the `suffix_count` directory.
 
-`g++ -std=c++14 -Werror -Wuninitialized -o test test-unit/test.cpp && ./test`
+### With Make
+
+If you have make installed, run this command:
+
+`make`
+
+If you installed gcc via the msys2 ucrt64 toolchain, you may need to run this command instead:
+
+`mingw32-make`
+
+### Without Make
+
+If you do not have make, run this command once to build catch:
+
+`g++ -std=c++14 -Werror -Wuninitialized -g -c test-unit/catch/catch_amalgamated.cpp -o catch_amalgamated.o`
+
+Run this command to compile and run the tests (you do not need to run the previous command again):
+
+`g++ -std=c++14 -Werror -Wuninitialized -g catch_amalgamated.o test-unit/test.cpp -o test; ./test`
 
 This will show you which tests you pass. We encourage you to build your own tests.
-
