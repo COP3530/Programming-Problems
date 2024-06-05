@@ -1,2 +1,6 @@
 *.zip
+.idea
 .vscode
+.idea
+.exe
+CMakeLists.txt
